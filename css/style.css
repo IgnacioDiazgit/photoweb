@@ -1,5 +1,5 @@
 .body  {
-    background-image: url(../fondo.jpg);
+    background-image: url(../fondos/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -15,18 +15,19 @@ right: 150px;
 top: 170px;
 position: absolute;
 text-align: center;
+border-radius: 6px;
 }
 .formulario{
    align-content: center;
 }
 #h1 {
-border: 3px;
+border: 10px;
 border-color: black;
 text-align: center;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 color: rgb(138, 202, 138);
 font-size: 150px;
-font-st;
+
 
 }
 #div1 {
@@ -36,5 +37,97 @@ width: 400px;
 height: 500px;
 left: 30px;
 top: 170px;
+
+}
+
+
+#loginindex {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+
+}
+
+.formulario {
+    width: 200px;
+    background-color: rgb(100, 194, 128);
+    border-color: black;
+    text-align: center;
+    color: black;
+    border-radius: 6px;
+    margin-bottom: 7px;
+    
+}
+
+#registro {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#botonlogin {
+    width: 100px;
+    background-color: rgb(39, 119, 39);
+    color: white;
+    border-radius: 3px;
+}
+
+#loginregis {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.recover {
+    opacity: 90%;
+    width: 300px;
+    height: 360px;
+    background-color: rgb(19, 172, 100);
+    border: 2px;
+  
+   bottom: 200px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+#contain {
+   
+      display: flex;
+      justify-content: center;
+   align-items: center;
+    height: 700px;
+}
+
+.botonmenu {
+    width: 250px;
+    height: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    padding: 0px;
+    font-size: 37px;
+
+}
+
+#barramenu {
+    width: 100%;
+    background-color: rgb(138, 202, 138);
+    height: 150px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 85%;
+}
+
+#bodyinicio{
+    background-image: url(../fondos/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#bodysports{
+
+    background-image: url(../fondos/fondosport.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
 }
