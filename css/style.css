@@ -3,6 +3,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    margin: 0  ;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .login {
@@ -69,6 +72,7 @@ top: 170px;
     background-color: rgb(39, 119, 39);
     color: white;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 #loginregis {
@@ -103,6 +107,7 @@ top: 170px;
     border-radius: 10px;
     padding: 0px;
     font-size: 37px;
+    cursor: pointer;
 
 }
 
@@ -115,6 +120,7 @@ top: 170px;
     align-items: center;
     justify-content: center;
     opacity: 85%;
+    margin: 0px;
 }
 
 #bodyinicio{
@@ -130,4 +136,28 @@ top: 170px;
     background-size: cover;
     background-attachment: fixed;
 
+}
+
+
+.row {
+    display: flex;
+   padding: 5px;
+
+   
+}
+.bodygaleria {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+ 
+}
+.columna {
+    flex: 25%;
+    padding: 5px;
+}
+
+.fotogaleria{
+    width: 100%;
+    margin-top: 5px;
 }
