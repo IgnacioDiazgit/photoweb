@@ -121,6 +121,7 @@ top: 170px;
     justify-content: center;
     opacity: 85%;
     margin: 0px;
+    border-bottom: 5px solid black;
 }
 
 #bodyinicio{
@@ -129,15 +130,6 @@ top: 170px;
     background-size: cover;
     background-attachment: fixed;
 }
-#bodysports{
-
-    background-image: url(../fondos/fondosport.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-
-}
-
 
 .row {
     display: flex;
@@ -160,4 +152,81 @@ top: 170px;
 .fotogaleria{
     width: 100%;
     margin-top: 5px;
+}
+#bodycontacto {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(138, 202, 138) ;
+}
+#contactodiv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#cajacontacto{
+
+    width: 300px;
+    height: 500px;
+    border-style: solid;
+    border: 10px; 
+    border-color: black;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  
+   
+    
+}
+
+#cajacontacto2 {
+    border-radius: 10px;
+    border: 4px;
+    border-color: black;
+    border-style: solid;
+    width: 240px;
+    height: 300px;
+    font-size: medium;
+}
+
+#banerproximoevento {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(138, 202, 138);
+    opacity: 90%;
+    border: 2px rgb(74, 131, 74) solid ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fotobaner{
+    width: 100%
+}
+
+#infobaner{
+    display: flex;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 60px;
+ background-color: white;
+ border: 1px solid rgb(74, 131, 74);
+ padding: 5px;
+ text-align: center;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 810px;
+
+}
+.divbanner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
 }
