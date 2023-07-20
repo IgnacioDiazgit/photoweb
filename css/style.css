@@ -165,21 +165,20 @@ top: 170px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
 #cajacontacto{
 
     width: 300px;
     height: 500px;
-    border-style: solid;
-    border: 10px; 
-    border-color: black;
+    border: 4px solid rgb(84, 145, 84);
     border-radius: 10px;
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    background-color: rgb(138, 202, 138);
   
    
     
@@ -187,12 +186,12 @@ top: 170px;
 
 #cajacontacto2 {
     border-radius: 10px;
-    border: 4px;
-    border-color: black;
-    border-style: solid;
+    border: 4px solid rgb(80, 78, 78);
     width: 240px;
     height: 300px;
-    font-size: medium;
+    font-size: 20px;
+    resize: none;
+   
 }
 
 #banerproximoevento {
@@ -204,6 +203,7 @@ top: 170px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0;
 }
 
 #fotobaner{
@@ -214,8 +214,9 @@ top: 170px;
     display: flex;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  font-size: 60px;
- background-color: white;
- border: 1px solid rgb(74, 131, 74);
+ background-color: rgb(138, 202, 138);
+ border: 5px solid rgb(84, 145, 84);
+ border-top: 0;
  padding: 5px;
  text-align: center;
  justify-content: center;
@@ -228,5 +229,27 @@ top: 170px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
+  
+}
+
+#divh2{
+    background-color: rgb(100, 160, 100);
+    width: 100%;
+    text-align: center;
+    text-decoration-style: solid;
+}
+
+
+#h1contacto{
+    font-size: 60px;
+text-align: center;
+}
+
+#fondobaner{
+    background-color: rgb(84, 145, 84);
+  
+}
+
+#fotoevento{
+   background-color: rgb(84, 145, 84);
 }
