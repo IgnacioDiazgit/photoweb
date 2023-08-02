@@ -152,6 +152,7 @@ top: 170px;
 .fotogaleria{
     width: 100%;
     margin-top: 5px;
+    border-radius: 5px;
 }
 #bodycontacto {
     padding: 0;
@@ -253,3 +254,47 @@ text-align: center;
 #fotoevento{
    background-color: rgb(84, 145, 84);
 }
+
+
+
+button {
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    background: white;
+    cursor: pointer;
+    transition: ease-out 0.3s;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 rgb(84, 145, 84);
+    width: 250px;
+  }
+  
+  button:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 rgb(84, 145, 84);
+  }
+  
+  button:active {
+    transform: scale(0.9);
+  }
+
+
+
+  #barramenugeek {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    background-image: linear-gradient(rgb(138, 202, 138)85%, white);
+  }
